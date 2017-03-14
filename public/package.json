@@ -1,0 +1,38 @@
+{
+  "name": "WP-Starter-Template",
+  "version": "1.0.0",
+  "description": "<!DOCTYPE html> <html> <head> \t<meta name=\"viewport\" content=\"width=device-width\" /> \t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /> \t<title>WordPress &#8250; ReadMe</title> \t<link rel=\"stylesheet\" href=\"wp-admin/css/install.css?ver=20100228\" type=\"text/css\" /> </head> <body> <h1 id=\"logo\"> \t<a href=\"https://wordpress.org/\"><img alt=\"WordPress\" src=\"wp-admin/images/wordpress-logo.png\" /></a> \t<br /> Version 4.5.3 </h1> <p style=\"text-align: center\">Semantic Personal Publishing Platform</p>",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-autoprefixer": "3.1.0",
+    "gulp-install": "^0.6.0",
+    "node-sass": "3.8.0"
+  },
+  "devDependencies": {
+    "browser-sync": "2.13.0",
+    "file-system": "2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "3.1.0",
+    "gulp-concat": "2.6.0",
+    "gulp-imagemin": "3.0.2",
+    "gulp-rename": "1.2.2",
+    "gulp-rev": "7.1.2",
+    "gulp-ruby-sass": "2.0.6",
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-uglify": "1.5.4",
+    "node-sass": "3.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "webpack-dev-server --host 0.0.0.0 --port 3000 --progress --inline",
+    "build": "webpack --config webpack.config.js --progress --colors",
+    "build-dev": "webpack -p --define process.env.NODE_ENV='\"development\"' --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MikaGurrola/WPStarter.git"
+  },
+  "author": "Mika Gurrola",
+  "license": "ISC",
+  "homepage": "https://github.com/MikaGurrola/WPStarter"
+}
